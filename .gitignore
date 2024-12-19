@@ -1,0 +1,61 @@
+*       # Ignore all files
+**/     # Ignore all directories and subdirectories
+# Ignore Python bytecode files
+*.pyc
+
+# Ignore all log files
+*.log
+
+# Ignore specific directories
+myenv/
+__pycache__/
+.idea/
+.vscode/s
+
+# Python
+*.pyc
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+
+# Virtual Environment
+myblog/
+env/
+venv/
+ENV/
+
+# IDE specific files
+.vscode/
+.idea/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Media and static files (customize as needed)
+media/
+static/
+
+# Temporary files
+*.swp
+*.swo
+*~
+
+# Backup files
+*.bak
+
+# Other
+*.sql
+*.csv
+*.env
