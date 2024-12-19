@@ -8,7 +8,7 @@ from telegram import Update
 from telegram.ext import ContextTypes
 from g4f.models import(
     Model , Blackbox, DDG , Pizzagpt,
-    ChatgptFree,HuggingChat
+    HuggingChat
 )
 from g4f.Provider import IterListProvider
 from services.unified_ai_client import OpenAIClient,G4FClient,UnifiedAIClient
@@ -31,7 +31,7 @@ G4F_MODEL = Model(
     name          = 'gpt-4o-mini',
     base_provider = 'OpenAI',
     best_provider = IterListProvider([
-    DDG, Pizzagpt,ChatgptFree,
+    DDG, Pizzagpt,
     ])
 )
 # Initialize with specific backend
@@ -50,7 +50,7 @@ G4F_MODEL = Model(
     name          = 'gpt-4o-mini',
     base_provider = 'OpenAI',
     best_provider = IterListProvider([
-    DDG, Pizzagpt,ChatgptFree,
+    DDG, Pizzagpt,
     ])
 )
 # Initialize with specific backend

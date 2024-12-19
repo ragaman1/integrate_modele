@@ -6,8 +6,7 @@ from dotenv import load_dotenv
 from g4f.client import AsyncClient
 
 from g4f.models import(
-    Model, Blackbox, DDG, HuggingChat, Pizzagpt,
-    ChatgptFree
+    Model, Blackbox, DDG, HuggingChat, Pizzagpt
 )
 from g4f.Provider import IterListProvider
 
